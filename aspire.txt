@@ -1,15 +1,16 @@
 1.Create a form with input fields
-firstname
-lastname
-Product
+Username
 email
 phone number
+Password
+Confirm password
 2.Validation
-fname,lname:no special characters or numbers,only alphabets 
-Email:username=5,domain=4(user name have numbers if required)
-phone number:only numbers,=10(do not write +01),starts with 6/7/8/9
-3.Button:Submit,Clear
-4.create class and constructors
-create method for validation
-5.once submit is given,it checks the validation,if anything is wrong it shows the error.
+Username:only alphabets ,minimum 5, maximum 14 characters
+Email:using regrex
+phone number:only numbers,=10(do not write +01)
+3.Password:min-5,max-10 characters
+4.confirm password: both password and confirm password should be same.
+5.create class and constructors
+create method for validation.
+6.once submit is given,it checks the validation,if anything is wrong it shows the error.
   error messages will be displayed on the screen
